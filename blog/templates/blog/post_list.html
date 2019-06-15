@@ -1,0 +1,15 @@
+{% extends 'blog/base.html' %}
+
+{% block content %}
+    {% for post in posts %}
+         <div class="post">
+
+                <h1>Title Post</h1>
+                <h2>date</h2>
+                <img src="img/1.jpg">
+                <p>Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum
+                Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum Lorem Inpum</p>
+                <a href="">Read more</a>
+            </div>
+    {% endfor %}
+{% endblock %}
